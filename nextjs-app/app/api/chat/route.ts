@@ -5,7 +5,7 @@ const model = "llama3";
 
 export async function POST(request: NextRequest) {
   try {
-
+    console.log("test")
     const data = await request.json();
     const response = await ollama.chat({
       model,
