@@ -1,0 +1,63 @@
+{
+  "name": "phantom-guard",
+  "version": "1.0.0",
+  "description": "AI-powered honeypot system for real-time cybersecurity threat detection",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "honeypot": "node scripts/honeypot-server.js"
+  },
+  "keywords": [
+    "cybersecurity",
+    "honeypot",
+    "ai",
+    "threat-detection",
+    "nextjs",
+    "hackathon"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.14.15",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/uuid": "^10.0.0",
+    "@types/ws": "^8.5.11",
+    "autoprefixer": "^10.4.19",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "date-fns": "^3.6.0",
+    "lucide-react": "^0.427.0",
+    "next": "^14.2.32",
+    "postcss": "^8.4.40",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.12.7",
+    "tailwind-merge": "^2.4.0",
+    "tailwindcss": "^3.4.7",
+    "typescript": "^5.5.4",
+    "uuid": "^10.0.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.5"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sneha-techiee/India-Accelerator-OpenXAI-2025.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sneha-techiee/India-Accelerator-OpenXAI-2025/issues"
+  },
+  "homepage": "https://github.com/sneha-techiee/India-Accelerator-OpenXAI-2025#readme"
+}
